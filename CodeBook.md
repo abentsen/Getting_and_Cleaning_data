@@ -81,8 +81,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##Data Features for this dataset
 subjectid  
-<p>    ID that indicates which subject performed the activity  
-<p>        1..30</p></p>
+    + ID that indicates which subject performed the activity  
+        - 1..30
 	
 activity
 	Activity Performed
