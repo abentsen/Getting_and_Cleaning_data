@@ -70,8 +70,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ##Transformation Steps
 * The features names were modified to be more descriptive - this is achieved through the getDescriptiveNames(features) function.
-	a) Camel case and periods were used to make the names for readable
-	b) Abbreviations were transformed into full words
+&nbsp;&nbsp;&nbsp;&nbsp;a) Camel case and periods were used to make the names for readable
+&nbsp;&nbsp;&nbsp;&nbsp;b) Abbreviations were transformed into full words
 * The descriptive feature names were set as the appropriate column headings
 * The test and training datasets were combined into one large dataset
 * A subset of data including only mean and standard deviation features was extracted
@@ -83,258 +83,258 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 subjectid  
 &nbsp;&nbsp;&nbsp;&nbsp;ID that indicates which subject performed the activity  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- 1..30
-	
+&nbsp;&nbsp;&nbsp;&nbsp;
 activity
-	Activity Performed
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
-		
+&nbsp;&nbsp;&nbsp;&nbsp;Activity Performed
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING_UPSTAIRS
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WALKING_DOWNSTAIRS
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SITTING
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STANDING
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAYING
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 time.Body.Acceleration.Mean.X
-	Mean of the mean body acceleration along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body acceleration along the X axis in time
 
 time.Body.Acceleration.Mean.Y
-	Mean of the mean body acceleration along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body acceleration along the Y axis in time
 
 time.Body.Acceleration.Mean.Z
-	Mean of the mean body acceleration along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body acceleration along the Z axis in time
 
 time.Body.Acceleration.StandardDeviation.X
-	Mean of the Standard Deviation of body acceleration along the X axis in time
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body acceleration along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;
 time.Body.Acceleration.StandardDeviation.Y
-	Mean of the Standard Deviation of body acceleration along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body acceleration along the Y axis in time
 
 time.Body.Acceleration.StandardDeviation.Z
-	Mean of the Standard Deviation of body acceleration along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body acceleration along the Z axis in time
 
 time.Gravity.Acceleration.Mean.X
-	Mean of the mean gravity acceleration along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean gravity acceleration along the X axis in time
 
 time.Gravity.Acceleration.Mean.Y
-	Mean of the mean gravity acceleration along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean gravity acceleration along the Y axis in time
 
 time.Gravity.Acceleration.Mean.Z
-	Mean of the mean gravity acceleration along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean gravity acceleration along the Z axis in time
 
 time.Gravity.Acceleration.StandardDeviation.X
-	Mean of the Standard Deviation of gravity acceleration along the X axis in time
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of gravity acceleration along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;
 time.Gravity.Acceleration.StandardDeviation.Y
-	Mean of the Standard Deviation of gravity acceleration along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of gravity acceleration along the Y axis in time
 
 time.Gravity.Acceleration.StandardDeviation.Z
-	Mean of the Standard Deviation of gravity acceleration along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of gravity acceleration along the Z axis in time
 
 time.Body.Acceleration.Jerk.Mean.X
-	Mean of the mean Jerk signal derived in time for body acceleraton along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body acceleraton along the X axis
 
 time.Body.Acceleration.Jerk.Mean.Y
-	Mean of the mean Jerk signal derived in time for body acceleraton along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body acceleraton along the Y axis
 
 time.Body.Acceleration.Jerk.Mean.Z
-	Mean of the mean Jerk signal derived in time for body acceleraton along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body acceleraton along the Z axis
 
 time.Body.Acceleration.Jerk.StandardDeviation.X
-	Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the X axis
 
 time.Body.Acceleration.Jerk.StandardDeviation.Y
-	Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the Y axis
 
 time.Body.Acceleration.Jerk.StandardDeviation.Z
-	Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for body acceleraton along the Z axis
 
 time.Body.Gyroscope.Mean.X
-	Mean of the mean body tilt of the gyroscope along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body tilt of the gyroscope along the X axis in time
 
 time.Body.Gyroscope.Mean.Y
-	Mean of the mean body tilt of the gyroscope along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body tilt of the gyroscope along the Y axis in time
 
 time.Body.Gyroscope.Mean.Z
-	Mean of the mean body tilt of the gyroscope along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean body tilt of the gyroscope along the Z axis in time
 
 time.Body.Gyroscope.StandardDeviation.X
-	Mean of the Standard Deviation of body tilt of the gyroscope along the X axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body tilt of the gyroscope along the X axis in time
 
 time.Body.Gyroscope.StandardDeviation.Y
-	Mean of the Standard Deviation of body tilt of the gyroscope along the Y axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body tilt of the gyroscope along the Y axis in time
 
 time.Body.Gyroscope.StandardDeviation.Z
-	Mean of the Standard Deviation of body tilt of the gyroscope along the Z axis in time
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of body tilt of the gyroscope along the Z axis in time
 
 time.Body.Gyroscope.Jerk.Mean.X
-	Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the X axis
 
 time.Body.Gyroscope.Jerk.Mean.Y
-	Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the Y axis
 
 time.Body.Gyroscope.Jerk.Mean.Z
-	Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Jerk signal derived in time for body tilt of the gyroscope along the Z axis
 
 time.Body.Gyroscope.Jerk.StandardDeviation.X
-	Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the X axis
 
 time.Body.Gyroscope.Jerk.StandardDeviation.Y
-	Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the Y axis
 
 time.Body.Gyroscope.Jerk.StandardDeviation.Z
-	Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Jerk signal derived in time for tilt of the gyroscope along the Z axis
 
 time.Body.Acceleration.Magnitude.Mean
-	Mean of the mean magnitude of body acceleration 
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean magnitude of body acceleration 
 
 time.Body.Acceleration.Magnitude.StandardDeviation
-	Mean of the Standard Deviation of magnitude of body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of magnitude of body acceleration
 
 time.Gravity.Acceleration.Magnitude.Mean
-	Mean of the mean magnitude of gravity acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean magnitude of gravity acceleration
 
 time.Gravity.Acceleration.Magnitude.StandardDeviation
-	Mean of the Standard Deviation of magnitude of gravity acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of magnitude of gravity acceleration
 
 time.Body.Acceleration.Jerk.Magnitude.Mean
-	Mean of the mean magnitude of Jerk signals for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean magnitude of Jerk signals for body acceleration
 
 time.Body.Acceleration.Jerk.Magnitude.StandardDeviation
-	Mean of the Standard Deviation of magnitude of Jerk signals for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of magnitude of Jerk signals for body acceleration
 
 time.Body.Gyroscope.Magnitude.Mean
-	Mean of the mean magnitude of body tilt of the gyroscope
-	 
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean magnitude of body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp; 
 time.Body.Gyroscope.Magnitude.StandardDeviation
-	Mean of the Standard Deviation of magnitude of body tilt of the gyroscope
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of magnitude of body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;
 time.Body.Gyroscope.Jerk.Magnitude.Mean
-	Mean of the mean magnitude of Jerk signals for body tilt of the gyroscope
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean magnitude of Jerk signals for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;
 time.Body.Gyroscope.Jerk.Magnitude.StandardDeviation
-	Mean of the Standard Deviation of magnitude of Jerk signals for body tilt of the gyroscope
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of magnitude of Jerk signals for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Mean.X
-	Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the X axis
 
 frequency.Body.Acceleration.Mean.Y
-	Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the Y axis
 
 frequency.Body.Acceleration.Mean.Z
-	Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body acceleration along the Z axis
 
 frequency.Body.Acceleration.StandardDeviation.X
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the X axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.StandardDeviation.Y
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the Y axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.StandardDeviation.Z
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body acceleration along the Z axis
 
 frequency.Body.Acceleration.meanFrequency.X
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the X axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.meanFrequency.Y
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the Y axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.meanFrequency.Z
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the Z axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body acceleration along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.Mean.X
-	Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the X axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.Mean.Y
-	Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the Y axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.Mean.Z
-	Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the Z axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean Jerk signals for body acceleration along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.StandardDeviation.X
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the X axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.StandardDeviation.Y
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the Y axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.StandardDeviation.Z
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the Z axis
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of Jerk signals for body acceleration along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Acceleration.Jerk.meanFrequency.X
-	Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the X axis
 
 frequency.Body.Acceleration.Jerk.meanFrequency.Y
-	Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the Y axis
 
 frequency.Body.Acceleration.Jerk.meanFrequency.Z
-	Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Jerk signals for the weighted average of the frequency components (meanFrequency) along the Z axis
 
 frequency.Body.Gyroscope.Mean.X
-	Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the X axis
 
 frequency.Body.Gyroscope.Mean.Y
-	Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Y axis
 
 frequency.Body.Gyroscope.Mean.Z
-	Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the mean Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Z axis
 
 frequency.Body.Gyroscope.StandardDeviation.X
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the X axis
 
 frequency.Body.Gyroscope.StandardDeviation.Y
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Y axis
 
 frequency.Body.Gyroscope.StandardDeviation.Z
-	Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Standard Deviation of the Fast Fourier Transform (FFT) of body tilt of the gyroscope along the Z axis
 
 frequency.Body.Gyroscope.meanFrequency.X
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the X axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the X axis
 
 frequency.Body.Gyroscope.meanFrequency.Y
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the Y axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the Y axis
 
 frequency.Body.Gyroscope.meanFrequency.Z
-	Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the Z axis
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the weighted average of the frequency components (meanFrequency) of body tilt of the gyroscope along the Z axis
 
 frequency.Body.Acceleration.Magnitude.Mean
-	Mean of the Fast Fourier Transform (FFT) of the mean magnitude of body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean magnitude of body acceleration
 
 frequency.Body.Acceleration.Magnitude.StandardDeviation
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of body acceleration
 
 frequency.Body.Acceleration.Magnitude.meanFrequency
-	Mean of the Fast Fourier Transform (FFT) of the magnitude of the weighted average of the frequency components (meanFrequency) for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the magnitude of the weighted average of the frequency components (meanFrequency) for body acceleration
 
 frequency.Body.Body.Acceleration.Jerk.Magnitude.Mean
-	Mean of the Fast Fourier Transform (FFT) of the mean magnitude of the Jerk signals for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean magnitude of the Jerk signals for body acceleration
 
 frequency.Body.Body.Acceleration.Jerk.Magnitude.StandardDeviation
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of the Jerk signals for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of the Jerk signals for body acceleration
 
 frequency.Body.Body.Acceleration.Jerk.Magnitude.meanFrequency
-	Mean of the Fast Fourier Transform (FFT) of the magnitude of the Jerk signals for the weighted average of the frequency components (meanFrequency) for body acceleration
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the magnitude of the Jerk signals for the weighted average of the frequency components (meanFrequency) for body acceleration
 
 frequency.Body.Body.Gyroscope.Magnitude.Mean
-	Mean of the Fast Fourier Transform (FFT) of the mean magnitude of body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean magnitude of body tilt of the gyroscope
 
 frequency.Body.Body.Gyroscope.Magnitude.StandardDeviation
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of body tilt of the gyroscope
 
 frequency.Body.Body.Gyroscope.Magnitude.meanFrequency
-	Mean of the Fast Fourier Transform (FFT) of the magnitude of the weighted average of the frequency components (meanFrequency) for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the magnitude of the weighted average of the frequency components (meanFrequency) for body tilt of the gyroscope
 
 frequency.Body.Body.Gyroscope.Jerk.Magnitude.Mean
-	Mean of the Fast Fourier Transform (FFT) of the mean magnitude of the Jerk signals for body tilt of the gyroscope
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the mean magnitude of the Jerk signals for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Body.Gyroscope.Jerk.Magnitude.StandardDeviation
-	Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of the Jerk signals for body tilt of the gyroscope
-	
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the Standard Deviation of the magnitude of the Jerk signals for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;
 frequency.Body.Body.Gyroscope.Jerk.Magnitude.meanFrequency
-	Mean of the Fast Fourier Transform (FFT) of the magnitude of the Jerk signals for the weighted average of the frequency components (meanFrequency) for body tilt of the gyroscope
+&nbsp;&nbsp;&nbsp;&nbsp;Mean of the Fast Fourier Transform (FFT) of the magnitude of the Jerk signals for the weighted average of the frequency components (meanFrequency) for body tilt of the gyroscope
 
-Additional vectors obtained by averaging the signals in a signal window sample used on the angle features:
-angle.time.Body.Acceleration.Mean.Gravity
-angle.time.Body.Acceleration.Jerk.Mean.Gravity.Mean
-angle.time.Body.Gyroscope.Mean.Gravity.Mean
-angle.time.Body.Gyroscope.Jerk.Mean.Gravity.Mean
-angle.X.Gravity.Mean
-angle.Y.Gravity.Mean
-angle.Z.Gravity.Mean
+Additional vectors obtained by averaging the signals in a signal window sample used on the angle features:  
+angle.time.Body.Acceleration.Mean.Gravity  
+angle.time.Body.Acceleration.Jerk.Mean.Gravity.Mean  
+angle.time.Body.Gyroscope.Mean.Gravity.Mean  
+angle.time.Body.Gyroscope.Jerk.Mean.Gravity.Mean  
+angle.X.Gravity.Mean  
+angle.Y.Gravity.Mean  
+angle.Z.Gravity.Mean  
